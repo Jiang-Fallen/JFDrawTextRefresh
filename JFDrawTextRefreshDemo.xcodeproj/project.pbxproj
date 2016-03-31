@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEEB386C1CACFC5E00E67C84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB386B1CACFC5E00E67C84 /* main.m */; };
+		EEEB386F1CACFC5E00E67C84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB386E1CACFC5E00E67C84 /* AppDelegate.m */; };
+		EEEB38751CACFC5E00E67C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB38731CACFC5E00E67C84 /* Main.storyboard */; };
+		EEEB38771CACFC5E00E67C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEB38761CACFC5E00E67C84 /* Assets.xcassets */; };
+		EEEB387A1CACFC5E00E67C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB38781CACFC5E00E67C84 /* LaunchScreen.storyboard */; };
+		EEEB38881CAD01E400E67C84 /* JFRefreshBezierLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB38871CAD01E400E67C84 /* JFRefreshBezierLabel.m */; };
+		EEEB388B1CAD03C300E67C84 /* UIScrollView+JFRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB388A1CAD03C300E67C84 /* UIScrollView+JFRefresh.m */; };
+		EEEB38911CAD053700E67C84 /* JFDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB38901CAD053700E67C84 /* JFDrawTextView.m */; };
+		EEEB38941CAD081100E67C84 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB38931CAD081100E67C84 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEEB38671CACFC5E00E67C84 /* JFDrawTextRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFDrawTextRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEB386B1CACFC5E00E67C84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEEB386D1CACFC5E00E67C84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEEB386E1CACFC5E00E67C84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEEB38741CACFC5E00E67C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEEB38761CACFC5E00E67C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEEB38791CACFC5E00E67C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEEB387B1CACFC5E00E67C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEB38861CAD01E400E67C84 /* JFRefreshBezierLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRefreshBezierLabel.h; sourceTree = "<group>"; };
+		EEEB38871CAD01E400E67C84 /* JFRefreshBezierLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRefreshBezierLabel.m; sourceTree = "<group>"; };
+		EEEB38891CAD03C300E67C84 /* UIScrollView+JFRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JFRefresh.h"; sourceTree = "<group>"; };
+		EEEB388A1CAD03C300E67C84 /* UIScrollView+JFRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JFRefresh.m"; sourceTree = "<group>"; };
+		EEEB388F1CAD053700E67C84 /* JFDrawTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDrawTextView.h; sourceTree = "<group>"; };
+		EEEB38901CAD053700E67C84 /* JFDrawTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDrawTextView.m; sourceTree = "<group>"; };
+		EEEB38921CAD081100E67C84 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EEEB38931CAD081100E67C84 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEEB38641CACFC5E00E67C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEEB385E1CACFC5E00E67C84 = {
+			isa = PBXGroup;
+			children = (
+				EEEB38691CACFC5E00E67C84 /* JFDrawTextRefreshDemo */,
+				EEEB38681CACFC5E00E67C84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEEB38681CACFC5E00E67C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB38671CACFC5E00E67C84 /* JFDrawTextRefreshDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEEB38691CACFC5E00E67C84 /* JFDrawTextRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB38821CACFCA800E67C84 /* JFDrawTextRefresh */,
+				EEEB386D1CACFC5E00E67C84 /* AppDelegate.h */,
+				EEEB386E1CACFC5E00E67C84 /* AppDelegate.m */,
+				EEEB38921CAD081100E67C84 /* TableViewController.h */,
+				EEEB38931CAD081100E67C84 /* TableViewController.m */,
+				EEEB38731CACFC5E00E67C84 /* Main.storyboard */,
+				EEEB38761CACFC5E00E67C84 /* Assets.xcassets */,
+				EEEB38781CACFC5E00E67C84 /* LaunchScreen.storyboard */,
+				EEEB387B1CACFC5E00E67C84 /* Info.plist */,
+				EEEB386A1CACFC5E00E67C84 /* Supporting Files */,
+			);
+			path = JFDrawTextRefreshDemo;
+			sourceTree = "<group>";
+		};
+		EEEB386A1CACFC5E00E67C84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB386B1CACFC5E00E67C84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEEB38821CACFCA800E67C84 /* JFDrawTextRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB388F1CAD053700E67C84 /* JFDrawTextView.h */,
+				EEEB38901CAD053700E67C84 /* JFDrawTextView.m */,
+				EEEB38861CAD01E400E67C84 /* JFRefreshBezierLabel.h */,
+				EEEB38871CAD01E400E67C84 /* JFRefreshBezierLabel.m */,
+				EEEB38891CAD03C300E67C84 /* UIScrollView+JFRefresh.h */,
+				EEEB388A1CAD03C300E67C84 /* UIScrollView+JFRefresh.m */,
+			);
+			path = JFDrawTextRefresh;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEEB38661CACFC5E00E67C84 /* JFDrawTextRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEB387E1CACFC5E00E67C84 /* Build configuration list for PBXNativeTarget "JFDrawTextRefreshDemo" */;
+			buildPhases = (
+				EEEB38631CACFC5E00E67C84 /* Sources */,
+				EEEB38641CACFC5E00E67C84 /* Frameworks */,
+				EEEB38651CACFC5E00E67C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JFDrawTextRefreshDemo;
+			productName = JFDrawTextRefreshDemo;
+			productReference = EEEB38671CACFC5E00E67C84 /* JFDrawTextRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEEB385F1CACFC5E00E67C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mr_Jiang;
+				TargetAttributes = {
+					EEEB38661CACFC5E00E67C84 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EEEB38621CACFC5E00E67C84 /* Build configuration list for PBXProject "JFDrawTextRefreshDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEEB385E1CACFC5E00E67C84;
+			productRefGroup = EEEB38681CACFC5E00E67C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEEB38661CACFC5E00E67C84 /* JFDrawTextRefreshDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEEB38651CACFC5E00E67C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB387A1CACFC5E00E67C84 /* LaunchScreen.storyboard in Resources */,
+				EEEB38771CACFC5E00E67C84 /* Assets.xcassets in Resources */,
+				EEEB38751CACFC5E00E67C84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEB38631CACFC5E00E67C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB38881CAD01E400E67C84 /* JFRefreshBezierLabel.m in Sources */,
+				EEEB38911CAD053700E67C84 /* JFDrawTextView.m in Sources */,
+				EEEB386F1CACFC5E00E67C84 /* AppDelegate.m in Sources */,
+				EEEB386C1CACFC5E00E67C84 /* main.m in Sources */,
+				EEEB38941CAD081100E67C84 /* TableViewController.m in Sources */,
+				EEEB388B1CAD03C300E67C84 /* UIScrollView+JFRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEEB38731CACFC5E00E67C84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEB38741CACFC5E00E67C84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEEB38781CACFC5E00E67C84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEB38791CACFC5E00E67C84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEEB387C1CACFC5E00E67C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEEB387D1CACFC5E00E67C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEEB387F1CACFC5E00E67C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JFDrawTextRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jiang.Fallen.drawTextRefresh.JFDrawTextRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEEB38801CACFC5E00E67C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JFDrawTextRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jiang.Fallen.drawTextRefresh.JFDrawTextRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEEB38621CACFC5E00E67C84 /* Build configuration list for PBXProject "JFDrawTextRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB387C1CACFC5E00E67C84 /* Debug */,
+				EEEB387D1CACFC5E00E67C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEB387E1CACFC5E00E67C84 /* Build configuration list for PBXNativeTarget "JFDrawTextRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB387F1CACFC5E00E67C84 /* Debug */,
+				EEEB38801CACFC5E00E67C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEEB385F1CACFC5E00E67C84 /* Project object */;
+}
