@@ -115,6 +115,10 @@
     if (showAnimation) {
         self.shapeLayer.strokeEnd = 1;
         _gradientLayer.backgroundColor = [UIColor clearColor].CGColor;
+        CAAnimation *animation = [self.gradientLayer animationForKey:@"animateGradient"];
+        if (!animation) {
+            _gradientAnimation = nil;
+        }
     }else{
         _gradientLayer.backgroundColor = self.textColor.CGColor;
     }
