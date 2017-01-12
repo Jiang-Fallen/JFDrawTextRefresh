@@ -11,7 +11,6 @@
 		EEEB386F1CACFC5E00E67C84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB386E1CACFC5E00E67C84 /* AppDelegate.m */; };
 		EEEB38751CACFC5E00E67C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB38731CACFC5E00E67C84 /* Main.storyboard */; };
 		EEEB38771CACFC5E00E67C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEB38761CACFC5E00E67C84 /* Assets.xcassets */; };
-		EEEB387A1CACFC5E00E67C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB38781CACFC5E00E67C84 /* LaunchScreen.storyboard */; };
 		EEEB38881CAD01E400E67C84 /* JFRefreshBezierLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB38871CAD01E400E67C84 /* JFRefreshBezierLabel.m */; };
 		EEEB388B1CAD03C300E67C84 /* UIScrollView+JFRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB388A1CAD03C300E67C84 /* UIScrollView+JFRefresh.m */; };
 		EEEB38911CAD053700E67C84 /* JFDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB38901CAD053700E67C84 /* JFDrawTextView.m */; };
@@ -25,7 +24,6 @@
 		EEEB386E1CACFC5E00E67C84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EEEB38741CACFC5E00E67C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEEB38761CACFC5E00E67C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EEEB38791CACFC5E00E67C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEEB387B1CACFC5E00E67C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEEB38861CAD01E400E67C84 /* JFRefreshBezierLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRefreshBezierLabel.h; sourceTree = "<group>"; };
 		EEEB38871CAD01E400E67C84 /* JFRefreshBezierLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRefreshBezierLabel.m; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				EEEB38931CAD081100E67C84 /* TableViewController.m */,
 				EEEB38731CACFC5E00E67C84 /* Main.storyboard */,
 				EEEB38761CACFC5E00E67C84 /* Assets.xcassets */,
-				EEEB38781CACFC5E00E67C84 /* LaunchScreen.storyboard */,
 				EEEB387B1CACFC5E00E67C84 /* Info.plist */,
 				EEEB386A1CACFC5E00E67C84 /* Supporting Files */,
 			);
@@ -159,7 +156,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEEB387A1CACFC5E00E67C84 /* LaunchScreen.storyboard in Resources */,
 				EEEB38771CACFC5E00E67C84 /* Assets.xcassets in Resources */,
 				EEEB38751CACFC5E00E67C84 /* Main.storyboard in Resources */,
 			);
@@ -190,14 +186,6 @@
 				EEEB38741CACFC5E00E67C84 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EEEB38781CACFC5E00E67C84 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEEB38791CACFC5E00E67C84 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -328,6 +316,7 @@
 				EEEB38801CACFC5E00E67C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

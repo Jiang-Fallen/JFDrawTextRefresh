@@ -26,7 +26,7 @@
     self = [super init];
     if (self) {
         _start_Y = 30;
-        self.scrollView = scrollView;
+        [scrollView addSubview:self];
         [self initSubViews];
     }
     return self;
@@ -34,7 +34,6 @@
 
 - (void)initSubViews{
     self.frame = CGRectMake(0, -64, self.scrollView.frame.size.width, 64);
-    [self.scrollView addSubview:self];
 }
 
 - (void)updateLabelForOffset{
@@ -105,7 +104,6 @@
 - (void)setScrollView:(UIScrollView *)scrollView{
     _scrollView = scrollView;
     _edgeInsets = scrollView.contentInset;
-    [scrollView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
 }
 
 - (void)setRefreshText:(NSString *)refreshText{
@@ -116,10 +114,23 @@
     self.bezierLabel.textColor = textColor;
 }
 
+- (void)willMoveToSuperview:(UIView *)newSuperview{
+    [super willMoveToSuperview:newSuperview];
+    if (newSuperview && ![newSuperview isKindOfClass:[UIScrollView class]]) return;
+    
+    [self.superview removeObserver:self forKeyPath:@"contentOffset"];
+    
+    if (!newSuperview) return;
+    [newSuperview addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
+    self.scrollView = (UIScrollView *)newSuperview;
+}
+
 #pragma mark - kvo
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context{
-    [self updateLabelForOffset];
+    if ([keyPath isEqualToString:@"contentOffset"]) {
+        [self updateLabelForOffset];
+    }
 }
 
 @end
